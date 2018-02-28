@@ -11,3 +11,7 @@ export const reducers = {
     amount: fromAmount.reducer,
     currencies: fromCurrency.reducer
 };
+
+export const getAmountState = (state: State) => state.amount;
+
+export const getCurrnecyRates = (state: State) => state.currencies;
